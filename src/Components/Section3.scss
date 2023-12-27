@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&family=Source+Sans+3&display=swap');
+
+.section3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    h1{
+        color: var(--primary, #0E2368);
+        font-family: 'Source Sans 3';
+        font-size: 56px;
+        font-style: normal;
+        font-weight: 600;
+        margin-left: 108px;
+        margin-top: 158px;
+    }
+    .slick-list{
+        width: 85.5vw;
+        margin: auto;
+    }
+    .slick-arrow {
+        background-color: #ddd;
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+      }
+      
+      .paging-info {
+        text-align: center;
+        color: #424961;
+        font-family: 'Source Sans 3';
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+      }
+      .slider-controls {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 65px;
+        margin-bottom: 65px;
+      }
+      button {
+        border: 1px solid #424961;
+        background: white;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 28px;
+        height: 29px;
+        margin: 0 15px;
+        font-size: 20px;
+      }
+}
+@media only screen and (max-width: 600px){
+  .section3{
+    .slick-list{
+      margin-left: 52px;
+    }
+    .articleCard{
+      margin-bottom: 61px;
+    }
+    h1{
+      font-size: 28px;
+      margin-top: 132px;
+      margin-bottom: 23px;
+    }
+    .slider-controls{
+      margin-top: 59px;
+      font-size: 12px;
+    }
+  }
+}

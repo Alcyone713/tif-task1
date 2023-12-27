@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&family=Source+Sans+3&display=swap');
+.section2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    // height: 467px;
+    width: 100vw;
+    background: linear-gradient(90deg, rgba(30, 42, 93, 0.04) 30.91%, rgba(48, 62, 130, 0.04) 64.79%, rgba(60, 80, 157, 0.04) 91.94%);
+    .content{
+        width: 447px;
+        margin-top: 107px;
+
+        h1{
+            color: var(--primary, #0E2368);
+            font-family: 'Poppins';
+            font-size: 45px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 27px; /* 60% */
+        }
+        p{
+            color: var(--body, #444957);
+            font-family: 'Open Sans';
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 27px;
+        }
+        button{
+            width: 132px;
+            height: 42px;
+            padding: 3px 26px;
+            border-radius: 21px;
+            background: #E23744;
+            color: #FFF;
+            font-family: 'Source Sans 3';
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+        }
+    }
+    img{
+        width: 384px;
+    }
+}
+@media only screen and (max-width: 500px){
+    .section2{
+        img{
+            display: none;
+        }
+        .content{
+            width: 275px;
+            text-align: center;
+            h1{
+                color: var(--primary, #0E2368);
+                text-align: center;
+                font-family: Poppins;
+                font-size: 26px;
+                font-style: normal;
+                font-weight: 600;
+            }
+            p{
+                color: var(--body, #444957);
+                text-align: center;
+                font-family: Open Sans;
+                font-size: 11px;
+                font-style: normal;
+                font-weight: 400;
+            }
+            button{
+                width: 96px;
+                height: 25px;
+                padding: 4px 33px;
+                margin-top: 16px;
+                margin-bottom: 130px;
+                font-size: 11px;
+            }
+        }
+    }
+}

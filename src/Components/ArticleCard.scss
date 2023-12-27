@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&family=Source+Sans+3&display=swap');
+
+.articleCard{
+    width: 381px;
+    height: 554px;
+    border-radius: 20.937px;
+    border: 1.37px solid rgba(147, 162, 211, 0.38);
+    background: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    img{
+        width: 326px;
+        height: 257px;
+        margin-top: 27px;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        h1{
+            color: var(--primary, #0E2368);
+            font-family: 'Poppins';
+            font-size: 21px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 27px; /* 128.571% */
+            margin-top: 35px;
+            margin-left: 0px;
+        }
+        p{
+            color: var(--body, #444957);
+            font-family: 'Open Sans';
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 27px; /* 180% */
+            letter-spacing: -0.3px;
+            width: 295px;
+            margin: 0;
+            margin-left: 0px;
+        }
+        button{
+            width: 131px;
+            height: 42px;
+            padding: 3px 26px;
+            border-radius: 21px;
+            border: 1px solid #424961;
+            color: #424961;
+            font-family: 'Source Sans 3';
+            font-size: 16.445px;
+            font-weight: 600;
+            background-color: white;
+            margin-top: 30px;
+            margin-left: 0px;
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+   .articleCard{
+        width: 271px;
+        height: auto;
+        border-color: #373737;
+        img{
+            width: 204px;
+            height: auto;
+        }
+        .content{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            h1{
+                font-size: 16px;
+            }
+            p{
+                font-size: 12px;
+                width: 213px;
+            }
+            button{
+                width: 120px;
+                height: 26px;
+                padding: 4px 33px;
+                font-size: 11px;
+                align-self: center;
+                margin-top: 26px;
+                margin-bottom: 40px;
+                border-radius: 27px;
+                border: 2px solid #424961;
+            }
+        }
+   }
+}
