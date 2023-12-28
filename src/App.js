@@ -7,7 +7,6 @@ function App() {
   return (
     <div className="App">
       <Section1 />
-      <div style={{height: '186px', backgroundColor: "white"}}></div>
       <Section2 />
       <Section3 />
       <Section4 />
